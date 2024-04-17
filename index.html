@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>İnput Eventlari</title>
+    <title>ToDo List</title>
 </head>
 
 <body>
@@ -18,28 +19,27 @@
         <div class="row">
             <div class="card w-100 mt-3">
                 <div class="card-header">
-                    <h5 class="card-title">Todo List Sayfası </h5>
+                    <img src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" class="mb-1" alt="">
+                    <h5 class="card-title">Yapılacaklar Listesi </h5>
                 </div>
                 <div class="card-body">
                     <form id="todoAddForm" class="mt-2">
                         <input type="text" class="form-control mt-2" id="todoName" aria-describedby="todo"
-                            placeholder="Todo Giriniz">
+                            placeholder="Bugün Ne Yapacaksın ?">
 
-                        <button id="todoAddButton" type="submit" class="btn btn-primary mt-4 btn-sm">
-                            Todo Ekleyin</button>
+                        <button id="todoAddButton" type="submit" class="btn  ">
+                            Ekle</button>
                     </form>
                    
                     <hr>
 
                 </div>
 
-                <hr />
-
                 <div class="card-body">
-                    <h5 class="card-title">Todo Listesi</h5>
-                    <form name="form2" id="todoListForm">
-                        <input id="todoSearch" type="text" class="form-control mt-3" placeholder="Todo Arayınız">
-                        <hr />
+                    <h5 class="card-title"></h5>
+                    <form name="form2" id="todoListForm" class="todolist">
+                        <input id="todoSearch" type="text" class="form-control mb-3" placeholder="Listede Arama Yapın">
+                        
                     </form>
 
                     <ul class="list-group">
@@ -52,7 +52,7 @@
                     -->
                       </ul>
 
-                        <a href="#" id="clearButton" class="btn btn-primary btn-sm mt-3">Tüm Todoları Temizle</a>
+                        <a href="#" id="clearButton" class="btn btn-primary btn-sm mt-3">Tüm Listeleri Temizle</a>
                 </div>
             </div>
         </div>

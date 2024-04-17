@@ -1,0 +1,37 @@
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    background-color: #fd7e14 !important;
+
+    img{
+        background-color: #fff;
+    }
+    h5{
+        margin-top: 1rem;
+        font-size: 2rem ;
+        color: #fff;
+    }
+}
+
+#todoAddForm {
+    display: flex;
+    
+
+    input{
+        width: 90% !important;
+    }
+
+    button{
+        width: 10%;
+        height: 2.3rem ;
+        margin-top: 0.5rem;
+    }
+
+    button:hover{
+        background-color: gray;
+    }
+}
